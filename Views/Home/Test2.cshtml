@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Test-2";
+}
+
+<h3>Test - 2</h3>
+<br />
+<label class="display-6" id="text"></label>
+<br />
+<div class="container">
+    <div class="d-flex justify-content-center">
+        <button class="btn btn-primary me-5" onclick="printText()" id="printBtn">PRINT TEXT</button>
+        <button class="btn btn-primary me-5" onclick="makeBold()" id="boldBtn">BOLD</button>
+        <button class="btn btn-primary me-5" onclick="makeItalic()" id="italicBtn">ITALIC</button>
+        <button class="btn btn-primary me-5" onclick="makeUnderline()" id="underlineBtn">UNDERLINE</button>
+        <button class="btn btn-primary me-5" onclick="reset()" id="resetBtn">RESET</button>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="~/js/site.js"></script>
+}

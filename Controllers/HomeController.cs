@@ -8,16 +8,15 @@ namespace Practical_9.Controllers
     {
         //private readonly ILogger<HomeController> _logger;
 
-        public HomeController()
-        {
-            
-        }
+        //public HomeController(ILogger<HomeController> logger)
+        //{
+        //    _logger = logger;
+        //}
         
 
         public IActionResult Index()
         {
-            string message = "Hello World";
-            return View("Index", message);
+            return View("Index", "Home");
         }
         public IActionResult Test2()
         {
